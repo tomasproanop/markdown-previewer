@@ -1,0 +1,41 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+body {
+  background-image: url("https://freenaturestock.com/wp-content/uploads/freenaturestock-1806-1024x683.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  font-family: "Inter", sans-serif;
+}
+
+hr {
+  border-color: black;
+  margin-top: 35px;
+  margin-bottom: 35px;
+}
+
+.md-input {
+  background-color: #3b4145;
+  border-radius: 10px;
+  color: #e4ebf0;
+  font-family: "Roboto Mono", monospace;
+  font-size: 13px;
+  padding: 10px;
+  width: 100%;
+  height: 400px;
+}
+@media (min-width: 992px) {
+  .md-input {
+    height: 600px;
+  }
+}
+
+.well {
+  padding: 10px;
+  width: 100%;
+  height: 400px;
+  overflow: auto;
+}
+@media (min-width: 992px) {
+  .well {
+    height: 600px;
+  }
+}
